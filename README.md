@@ -1,9 +1,10 @@
-# SCRIBE
+# SCRIBE: A Unified Agent Framework for Verifiable Historical Reasoning Driven by Structured Citation Retrieval
 
 
-# 大模型批量推理&评分实验工具
+
 本项目整合 **Dify（实验平台框架）** 与 **LlamaFactory（大模型微调框架）**，提供批量推理数据生成、结果评分代码，及对应实验结果。
-
+具体的模型数据在huggingface平台：
+https://huggingface.co/datasets/hhhxxx1530/SCRIBE
 
 ## 依赖框架
 | 框架       | 作用               | GitHub 地址                          |
