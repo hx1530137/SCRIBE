@@ -39,7 +39,7 @@ pip install -e .[torch,metrics]
 ## 文件结构
 ```
 ./
-├── 8b-top5-ios-json/  # 8B模型iOS场景Top5推理结果
+├── 8b-top5-ios-json/  # qwen3-embedding-8B模型Top5推理结果
 ├── RAG-top-k-result/  # RAG策略推理实验结果
 ├── results/           # 实验结果汇总
 ├── avg.py             # 评分统计工具
