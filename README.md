@@ -52,11 +52,11 @@ pip install -e .[torch,metrics]
 
 ## 使用流程
 1. 配置 `generate.py` 中模型/数据源信息
-2. 生成推理数据：`python generate.py`（结果存对应场景目录）
-3. 导入 Dify 执行推理/ RAG 实验（结果存 `RAG-top-k-result`）
-4. 基础评分：`python get_score.py --result_path [结果文件路径]`
-5. 大模型评分：`python llm_score.py --result_path [结果文件路径]`
-6. 统计结果：`python avg.py --score_paths [评分文件路径]`
+2. 请求模型推理生成数据：`python generate.py`
+3. 导入 Dify 执行推理的RAG实验结果为 `RAG-top-k-result`
+4. 基础评分：`python get_score.py`
+5. 大模型评分：`python llm_score.py`
+6. 统计结果：`python avg.py`
 
 
 ## 注意事项
