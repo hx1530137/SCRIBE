@@ -1,0 +1,20 @@
+eval.batch_size: 8
+eval.cutoff_len: 2048
+eval.dataset:
+- sanguo-rand-rag-test-500
+eval.dataset_dir: data
+eval.max_new_tokens: 512
+eval.max_samples: '100000'
+eval.output_dir: xiaorong-abl-rag
+eval.predict: true
+eval.temperature: 0.95
+eval.top_p: 0.7
+top.booster: auto
+top.checkpoint_path:
+- sanguo-have-input
+top.finetuning_type: lora
+top.model_name: Qwen2.5-7B-Instruct
+top.quantization_bit: none
+top.quantization_method: bnb
+top.rope_scaling: none
+top.template: qwen
